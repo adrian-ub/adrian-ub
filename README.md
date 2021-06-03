@@ -16,4 +16,8 @@
 </div>
 
 ## Publicaciones de Blog
-<!-- BLOG-POST-LIST:START --><!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->
+- [Bordes rellenables con TailwindCSS](https://adrianub.pages.dev/p/2021/04/bordes-rellenables-con-tailwindcss)
+- [Combinando múltiples flujos Http con RxJS Observables en Angular](https://adrianub.pages.dev/p/2021/04/combinando-multiples-flujos-http-con-rxjs-observables-en-angular)
+- [Cómo usar TailwindCSS v2 en Laravel 8](https://adrianub.pages.dev/p/2021/01/como-usar-tailwindcss-v2-en-laravel-8)
+<!-- BLOG-POST-LIST:END -->
