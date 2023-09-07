@@ -22,11 +22,11 @@ Soy Adrián UB, desarrollador frontend Angular con más de 6 años de experienci
 ### Publicaciones de blog
 
 <!-- BLOG-POST-LIST:START -->
-- [Como desplegar NestJS en Deta.sh 🚀](https://adrianub.dev/blog/desplegar-nestjs-en-detash/)
-- [Refactorización: Guard Clauses](https://adrianub.dev/blog/refactorizacion-guard-clauses/)
-- [Crear controles de formulario personalizados usando ControlValueAccessor en Angular](https://adrianub.dev/blog/crear-controles-de-formulario-personalizados-usando-controlvalueaccessor-en-angular/)
-- [Bordes rellenables con TailwindCSS](https://adrianub.dev/blog/bordes-rellenables-con-tailwindcss/)
-- [Combinando múltiples flujos Http con RxJS Observables en Angular](https://adrianub.dev/blog/combinando-multiples-flujos-http-con-rxjs-observables-en-angular/)
+- [Como desplegar NestJS en Deta.sh 🚀](https://adrianub.dev/desplegar-nestjs-en-detash/)
+- [Refactorización: Guard Clauses](https://adrianub.dev/refactorizacion-guard-clauses/)
+- [Formularios reactivos en Angular usando ControlValueAccessor](https://adrianub.dev/crear-controles-de-formulario-personalizados-usando-controlvalueaccessor-en-angular/)
+- [Bordes rellenables con TailwindCSS](https://adrianub.dev/bordes-rellenables-con-tailwindcss/)
+- [Múltiples flujos con RxJS en Angular](https://adrianub.dev/combinando-multiples-flujos-http-con-rxjs-observables-en-angular/)
 <!-- BLOG-POST-LIST:END -->
 
 Más en [adrianub.dev](https://adrianub.dev/)
