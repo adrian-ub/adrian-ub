@@ -9,7 +9,6 @@
 </div>
 
 <!-- BLOG-POST-LIST:START -->
-
 - [Como desplegar NestJS en Deta.sh 🚀](https://adrianub.dev/desplegar-nestjs-en-detash/)
 - [Refactorización: Guard Clauses](https://adrianub.dev/refactorizacion-guard-clauses/)
 - [Formularios reactivos en Angular usando ControlValueAccessor](https://adrianub.dev/crear-controles-de-formulario-personalizados-usando-controlvalueaccessor-en-angular/)
