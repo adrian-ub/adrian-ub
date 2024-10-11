@@ -1,21 +1,25 @@
-<samp>
+### Hola 👋
 
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
+  <img alt="Los lenguages más utilizados por Adrián UB" src="assets/languages-light.svg" width="192" align="right" />
+</picture>
 
-[<img align="center" src="https://raw.githubusercontent.com/adrian-ub/adrian-ub/main/assets/typing-light.svg" />](https://github.com/adrian-ub#gh-light-mode-only)
+- Principalmente **TypeScript**, **Astro**, **Angular** y algo de **React**.
+- Todos mis proyectos están disponibles en [GitHub](https://github.com/adrian-ub).
+- Puedes leer mi blog en [adrianub.dev](https://adrianub.dev/).
 
-[<img align="center" src="https://raw.githubusercontent.com/adrian-ub/adrian-ub/main/assets/typing-dark.svg" />](https://github.com/adrian-ub#gh-dark-mode-only)
+<br />
 
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+  <img alt="Contribuciones de Adrián UB en GitHub y descargas de npm" src="assets/stats-light.svg" />
+</picture>
 
-<!-- BLOG-POST-LIST:START -->
+<br /><br />
+
 - [Como desplegar NestJS en Deta.sh 🚀](https://adrianub.dev/posts/desplegar-nestjs-en-detash/)
 - [Refactorización: Guard Clauses](https://adrianub.dev/posts/refactorizacion-guard-clauses/)
 - [Formularios reactivos en Angular con ControlValueAccessor](https://adrianub.dev/posts/crear-controles-de-formulario-personalizados-usando-controlvalueaccessor-en-angular/)
 - [Bordes rellenables con TailwindCSS](https://adrianub.dev/posts/bordes-rellenables-con-tailwindcss/)
 - [Múltiples flujos con RxJS en Angular](https://adrianub.dev/posts/combinando-multiples-flujos-http-con-rxjs-observables-en-angular/)
-<!-- BLOG-POST-LIST:END -->
-
-Más en [adrianub.dev](https://adrianub.dev/)
-
-</samp>

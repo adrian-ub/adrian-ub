@@ -1,0 +1,54 @@
+name: Update Assets
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: '35 0 * * *'
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          registry-url: https://registry.npmjs.org/
+
+      - name: Get pnpm store directory path
+        id: pnpm-store-dir-path
+        run: echo "::set-output name=dir::$(pnpm store path)"
+
+      - name: Setup pnpm store cache
+        uses: actions/cache@v3
+        id: pnpm-store-cache
+        with:
+          path: ${{ steps.pnpm-store-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-
+
+      - run: pnpm install
+
+      - run: pnpm start
+        env:
+          GH_LOGIN: ${{ secrets.GH_LOGIN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_LOGIN: ${{ secrets.NPM_LOGIN }}
+          RSS_URL: ${{ secrets.RSS_URL }}
+
+      - name: Commit changes
+        run: |-
+          git config user.name "UbLabs[bot]"
+          git config user.email "92824821+ublabs[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "docs: update readme and assets" || exit 0
+          git push
