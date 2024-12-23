@@ -20,6 +20,6 @@
 
 - [Bordes rellenables con TailwindCSS](https://adrianub.dev/posts/bordes-rellenables-con-tailwindcss/)
 - [Múltiples flujos con RxJS en Angular](https://adrianub.dev/posts/combinando-multiples-flujos-http-con-rxjs-observables-en-angular/)
-- [Formularios reactivos en Angular con ControlValueAccessor](https://adrianub.dev/posts/crear-controles-de-formulario-personalizados-usando-controlvalueaccessor-en-angular/)
 - [Cómo usar TailwindCSS v2 en Laravel 8](https://adrianub.dev/posts/como-usar-tailwindcss-v2-en-laravel-8/)
-- [Como desplegar NestJS en Deta.sh 🚀](https://adrianub.dev/posts/desplegar-nestjs-en-detash/)
+- [Formularios reactivos en Angular con ControlValueAccessor](https://adrianub.dev/posts/crear-controles-de-formulario-personalizados-usando-controlvalueaccessor-en-angular/)
+- [Refactorización: Guard Clauses](https://adrianub.dev/posts/refactorizacion-guard-clauses/)
